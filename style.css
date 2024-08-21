@@ -1,0 +1,144 @@
+@import url('https://fonts.cdnfonts.com/css/svn-gilroy');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'svn-gilroy';
+}
+html,body {
+    height: 100%;
+    width: 100%;
+}
+
+#main{
+    height: 100%;
+    width: 100%;
+    background-color: white;
+}
+
+#nav{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 30px;
+}
+
+#nav-part1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#nav h3{
+    font-size: 15px;
+    font-weight: 500;
+    border: 1.5px solid black;
+    padding: 5px 10px;
+    border-radius: 50px;
+}
+
+#nav i{
+    font-size: 15px;
+    font-weight: 500;
+    border: 1.5px solid black;
+    padding: 5px 10px;
+    border-radius: 50px;
+}
+
+#nav h1{
+    font-weight: 500;
+    font-size: 25px;
+    text-transform: uppercase;
+}
+
+#nav button{
+    padding: 7px 12px;
+    border-radius: 50px;
+    border: 1.5px solid black;
+    font-size: 15px;
+    font-weight: 500;
+    background-color: white;
+}
+
+#nav #btn2{
+    background-color: orangered;
+    color: white;
+    border: none;
+}
+
+#main>h1{
+    width: 100%;
+    text-align: center;
+    font-size: 140px;
+    font-weight: 500;
+    text-transform: uppercase;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+img{
+    height: 450px;
+    width: 350px;
+    object-fit: cover;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 10px;
+}
+
+#img1{
+    transform: translate(-50%,-50%) rotate(-20deg);
+}
+#img2{
+    transform: translate(-50%,-50%) rotate(-10deg);
+}
+#img3{
+    transform: translate(-50%,-50%) rotate(0deg);
+}
+
+#btm-left{
+    position: absolute;
+    font-weight: 500;
+    font-size: 15px;
+    bottom: 5%;
+    left: 5%;
+}
+#btm-right{
+    position: absolute;
+    bottom: 5%;
+    right: 5%;
+    
+}
+
+#social{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#tag-line{
+    font-size: 13px;
+    font-weight: 500;
+}
+
+#btm-cnt{
+    height: 50px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    border: 1px solid gray;
+    border-radius: 50%;
+    position: absolute;
+    left: 50%;
+    bottom: -7%;
+    transform: translate(-50%,-50%);
+}
+#btm-cnt i{
+    color: gray;
+}
